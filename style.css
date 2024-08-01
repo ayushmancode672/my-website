@@ -1,24 +1,31 @@
-body{
+body {
     background-image: url('back ground.jpeg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
+.imagecontanor {
+    position: relative;
+   /*   display: inline-block;
+  text-align: center; */
 }
-.imagecontanor{
-   position: relative;
-   text-align: center; 
-}
- img{
+
+.imagecontanor img {
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    margin-left: 50px;
-    margin-top: 30px;
+   margin-left: 10% ;
+  margin-top: 3%;
+   /* display: block;
+    margin: 30px auto; */
 }
-h1{
-    margin-left: 240px;
+
+.imagecontanor h1 {
     position: absolute;
-margin-top: 20px;
-transform: translate(-50%,-50%);
+    top: 40%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    /* color: white; Change color as needed */
+  /*  font-size: 1.5em;  Adjust font size as needed */
 }
